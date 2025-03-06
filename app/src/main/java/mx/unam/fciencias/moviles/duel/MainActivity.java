@@ -121,7 +121,6 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
 
     private void fire(View gun) {
         JobIntentService.enqueueWork(this,
-
                 SoundPlayer.class, 0, new Intent(SoundPlayer.ACTION_FIRE));
     }
 
