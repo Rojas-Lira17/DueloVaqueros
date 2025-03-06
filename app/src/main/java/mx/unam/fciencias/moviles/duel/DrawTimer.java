@@ -6,7 +6,6 @@ public class DrawTimer implements Runnable{
     private ImageView gunView;
     public  void run(){
 
-
         short counter = 0;
     }
 }
