@@ -28,7 +28,6 @@ import java.util.concurrent.Executors;
 public class MainActivity extends AppCompatActivity implements SensorEventListener {
     private ImageView gunView;
     private Button start_button;
-    private Sensor StepDetectorSensor;
     private SensorManager sensorManager;
     private Sensor stepDetectorSensor; // referencia al podometro.
     private ExecutorService singleThreadProducer;
