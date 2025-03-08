@@ -140,13 +140,5 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void onAccuracyChanged (Sensor sensor, int accuracy){
 
     }
-
-
-
-
-
-
-
-
 }
 
