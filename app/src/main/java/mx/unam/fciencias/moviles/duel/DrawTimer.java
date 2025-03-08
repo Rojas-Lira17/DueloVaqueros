@@ -34,9 +34,10 @@ public class DrawTimer implements Runnable {
             } catch (InterruptedException e) {
                 // Manejo de la interrupción si es necesario
             }
-            counter++;
+            counter++;  // Incrementa el contador en cada iteración.
         }
-        postVisibilityToUI();
+
+        postVisibilityToUI();  // Llama al metodo para hacer visible el arma en la interfaz de usuario.
     }
 
     /**
