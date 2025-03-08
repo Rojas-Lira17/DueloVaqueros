@@ -12,6 +12,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.Manifest;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -138,6 +139,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
     public void onAccuracyChanged (Sensor sensor, int accuracy){
 
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 649d0038a56d95bcb8e1a0c8acfbfdf8429d9691
 }
 
