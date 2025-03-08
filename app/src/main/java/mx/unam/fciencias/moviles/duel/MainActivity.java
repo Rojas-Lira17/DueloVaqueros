@@ -3,6 +3,7 @@ package mx.unam.fciencias.moviles.duel;
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
+import android.content.RestrictionsManager;
 import android.content.pm.PackageManager;
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
