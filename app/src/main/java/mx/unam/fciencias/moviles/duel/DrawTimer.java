@@ -12,6 +12,7 @@ public class DrawTimer implements Runnable{
         this.gunView = gunView;
         COUNT_TO = countTo;
     }
+
     @Override
     public void run(){
         byte counter = 0;
@@ -25,18 +26,14 @@ public class DrawTimer implements Runnable{
             counter++;
         }
         postVisibilityToUI();
-
     }
 
     private void postVisibilityToUI(){
-        gunView.post (new Runnable()){
+        gunView.post(new Runnable(){
             @Override
-                    public void run(){
+            public void run(){
                 gunView.setVisibility(View.VISIBLE);
             }
-        }
+        });
     }
-
-
-
 }
