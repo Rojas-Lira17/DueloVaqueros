@@ -169,8 +169,9 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         }
     }
 
+
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
-        // Este método no se utiliza, pero es parte de la interfaz SensorEventListener.
+        /* Este método no se utiliza, pero es parte de la interfaz SensorEventListener. */
     }
 }
